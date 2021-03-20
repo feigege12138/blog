@@ -1,35 +1,31 @@
 <template>
-  <div class="content">
-    home
-
-    </div>
+  <div>
+    123
   </div>
 </template>
 
 <script>
-export default {
-  data(){
-    return{
 
-    }
-  },
-  created(){
+const fs = require ('fs')
+console.log(fs)
 
-  },
-  mounted(){
+let p = new Promise((resolve,reject)=>{
+ fs.readFile('./text.txt',(err,data)=>{
+   if(err){
+     reject(err)
+   }else{
+     resolve(data)
+   }
+ })
+})
 
-  },
-  methods:{
-
-  }
-}
+// p.then(value=>{
+//   console.log(value)
+// },error=>{
+//   console.log(error)
+// })
 </script>
 
-<style lang="scss" >
-*{
-  padding: 0;
-  margin: 0;
-}
- 
+<style>
 
 </style>

@@ -19,7 +19,7 @@
 
 
       <video autoplay="autoplay" loop="loop" muted="muted" controlsList="nodownload" class="aaa">
-        <source src="http://47.103.40.123:8080/static/media/bgvide.13edb8ad.mp4" type="video/mp4" />
+        <source src="@/assets/loginBg.mp4" type="video/mp4" />
       </video>
 
     </div>

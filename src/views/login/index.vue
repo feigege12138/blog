@@ -9,8 +9,8 @@
         </div>
 
         <div class="ipt">
-          <el-input v-model="num" placeholder="请输入账号"></el-input>
-          <el-input v-model="pswd" placeholder="请输入密码" style="margin-top:2vh"></el-input>
+          <el-input size="small" v-model="num" style="margin-top:1vh" placeholder="请输入账号"></el-input>
+          <el-input size="small" v-model="pswd" placeholder="请输入密码" style="margin-top:2vh"></el-input>
         </div>
 
 

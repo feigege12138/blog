@@ -5,7 +5,7 @@
 
       <div class="login">
         <div class="title">
-          blog
+          LOVE
         </div>
 
         <div class="ipt">

@@ -5,7 +5,7 @@
 
       <div class="login">
         <div class="title">
-          flog
+          blog
         </div>
 
         <div class="ipt">
